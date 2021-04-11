@@ -1,7 +1,6 @@
 #include<pthread.h>
 #include<stdio.h>
 #include<stdlib.h>
-
 long int *fibo; 
 long int n;
 void *runner(void *param)
